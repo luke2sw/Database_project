@@ -1,0 +1,24 @@
+-- Insert data into LOGIN table
+INSERT INTO LOGIN (NomeUtente, password, tipo) VALUES
+('TS001000000000000001', '1234', 'Paziente'),
+('TS001000000000000002', '1234', 'Paziente'),
+('TS001000000000000003', '1234', 'Paziente'),
+('TS001000000000000005', '1234', 'Paziente'),
+
+
+('MEDEST0000000001', '1234', 'Medico Esterno'),
+('MEDEST0000000002', '1234', 'Medico Esterno'),
+('MEDEST0000000006', '1234', 'Medico Esterno'),
+
+('PRSNL0016CHAR001', '1234', 'Medico Interno'),
+('PRSNL0026CHAR002', '1234', 'Medico Interno'),
+('PRSNL0036CHAR003', '1234', 'Medico Interno'),
+('PRSNL0046CHAR004', '1234', 'Medico Interno'), /*T.P.*/
+('PRSNL0056CHAR005', '1234', 'Medico Interno'),
+('PRSNL0066CHAR006', '1234', 'Medico Interno'),
+('PRSNL0076CHAR007', '1234', 'Infermiere'),
+('PRSNL0086CHAR008', '1234', 'Infermiere'), /*T.P.*/
+('PRSNL0096CHAR009', '1234', 'Amministrativo'),
+
+('PRSNL0106CHAR010', '1234', 'Medico Interno'),/*SOST*/
+('PRSNL0116CHAR011', '1234', 'Medico Interno'),/*SOST*/
